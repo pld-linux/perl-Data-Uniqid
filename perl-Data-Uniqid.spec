@@ -8,7 +8,7 @@
 Summary:	Data::Uniqid - Perl extension for simple genrating of unique id's
 Name:		perl-Data-Uniqid
 Version:	0.12
-Release:	1
+Release:	2
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Data/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -56,4 +56,6 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Changes README
 %{perl_vendorlib}/Data/Uniqid.pm
+%dir %{perl_vendorlib}/auto/Data/Uniqid
+%{perl_vendorlib}/auto/Data/Uniqid/autosplit.ix
 %{_mandir}/man3/Data::Uniqid.3*
