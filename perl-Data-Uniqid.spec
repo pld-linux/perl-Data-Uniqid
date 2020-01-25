@@ -4,7 +4,6 @@
 #
 %define		pdir	Data
 %define		pnam	Uniqid
-%include	/usr/lib/rpm/macros.perl
 Summary:	Data::Uniqid - Perl extension for simple genrating of unique id's
 Name:		perl-Data-Uniqid
 Version:	0.12
